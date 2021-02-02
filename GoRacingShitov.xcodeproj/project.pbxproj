@@ -13,6 +13,12 @@
 		106DC62025C95E23005695F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 106DC61E25C95E23005695F3 /* Main.storyboard */; };
 		106DC62225C95E25005695F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 106DC62125C95E25005695F3 /* Assets.xcassets */; };
 		106DC62525C95E25005695F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 106DC62325C95E25005695F3 /* LaunchScreen.storyboard */; };
+		106DC62E25C967CF005695F3 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106DC62D25C967CF005695F3 /* MyButton.swift */; };
+		106DC63125C981BF005695F3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106DC63025C981BF005695F3 /* GameViewController.swift */; };
+		106DC63425C98E60005695F3 /* ResultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106DC63325C98E60005695F3 /* ResultTableViewController.swift */; };
+		106DC63725C991B3005695F3 /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106DC63625C991B3005695F3 /* ResultTableViewCell.swift */; };
+		106DC64325C99607005695F3 /* ChangeCarCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106DC64225C99607005695F3 /* ChangeCarCollectionViewController.swift */; };
+		106DC64625C9962F005695F3 /* ChangeCarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106DC64525C9962F005695F3 /* ChangeCarCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		106DC62125C95E25005695F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		106DC62425C95E25005695F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		106DC62625C95E25005695F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		106DC62D25C967CF005695F3 /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
+		106DC63025C981BF005695F3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		106DC63325C98E60005695F3 /* ResultTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewController.swift; sourceTree = "<group>"; };
+		106DC63625C991B3005695F3 /* ResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
+		106DC64225C99607005695F3 /* ChangeCarCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeCarCollectionViewController.swift; sourceTree = "<group>"; };
+		106DC64525C9962F005695F3 /* ChangeCarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeCarCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 				106DC61A25C95E23005695F3 /* SceneDelegate.swift */,
 				106DC61C25C95E23005695F3 /* ViewController.swift */,
 				106DC61E25C95E23005695F3 /* Main.storyboard */,
+				106DC64525C9962F005695F3 /* ChangeCarCollectionViewCell.swift */,
+				106DC64225C99607005695F3 /* ChangeCarCollectionViewController.swift */,
+				106DC63325C98E60005695F3 /* ResultTableViewController.swift */,
+				106DC63625C991B3005695F3 /* ResultTableViewCell.swift */,
+				106DC63025C981BF005695F3 /* GameViewController.swift */,
+				106DC62D25C967CF005695F3 /* MyButton.swift */,
 				106DC62125C95E25005695F3 /* Assets.xcassets */,
 				106DC62325C95E25005695F3 /* LaunchScreen.storyboard */,
 				106DC62625C95E25005695F3 /* Info.plist */,
@@ -137,9 +155,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				106DC63125C981BF005695F3 /* GameViewController.swift in Sources */,
+				106DC64325C99607005695F3 /* ChangeCarCollectionViewController.swift in Sources */,
 				106DC61D25C95E23005695F3 /* ViewController.swift in Sources */,
+				106DC63725C991B3005695F3 /* ResultTableViewCell.swift in Sources */,
+				106DC63425C98E60005695F3 /* ResultTableViewController.swift in Sources */,
 				106DC61925C95E23005695F3 /* AppDelegate.swift in Sources */,
 				106DC61B25C95E23005695F3 /* SceneDelegate.swift in Sources */,
+				106DC62E25C967CF005695F3 /* MyButton.swift in Sources */,
+				106DC64625C9962F005695F3 /* ChangeCarCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
